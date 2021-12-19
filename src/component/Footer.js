@@ -7,9 +7,9 @@ const Footer = () =>(
             <Col lg ={4}>
                 <div style ={{textAlign:'center', marginTop:'30px'}} id = 'footerSocialDiv'>
                     <p id = 'footerSocial'><span id = 'span'>Social </span> </p>
-                    <a href ='https://www.instagram.com/sharp_gas/' target='_blank' id ='iconLink'><FaInstagram  id ='footerInstagram'className= 'footerSocialMediaIcon'/></a>
+                    <a href ='https://www.instagram.com/sharp_gas/' target='_blank' rel ='noreferrer'id ='iconLink'><FaInstagram  id ='footerInstagram'className= 'footerSocialMediaIcon'/></a>
                     <FaTwitter id ='footerTwitter' className= 'footerSocialMediaIcon'/>
-                    <a href ='https://web.facebook.com/profile.php?id=100074653950379' target='_blank' id ='iconLink'><FaFacebookF className= 'footerSocialMediaIcon' id ='footerFacebook'/></a>
+                    <a href ='https://web.facebook.com/profile.php?id=100074653950379'rel ='noreferrer' target='_blank' id ='iconLink'><FaFacebookF className= 'footerSocialMediaIcon' id ='footerFacebook'/></a>
                 </div>
             </Col>
             <Col lg ={4}id ='footerAddressDiv'>
